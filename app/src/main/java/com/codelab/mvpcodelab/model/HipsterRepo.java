@@ -6,10 +6,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Headers;
 
-/**
- * Created by calance-dc on 10/7/2016.
- */
-
 public interface HipsterRepo {
 
     void getHipsterText(GetHipsterTextCallback getHipsterTextCallback);

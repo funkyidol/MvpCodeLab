@@ -6,10 +6,6 @@ import com.codelab.mvpcodelab.utils.RetrofitHelper;
 
 import timber.log.Timber;
 
-/**
- * Created by calance-dc on 10/7/2016.
- */
-
 public class MvpApplication extends Application {
     @Override
     public void onCreate() {
