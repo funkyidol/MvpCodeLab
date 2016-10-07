@@ -12,7 +12,7 @@
     tools:context="com.codelab.mvpcodelab.main.MainActivity">
 
     <Button
-        android:id="@+id/btn_new_word"
+        android:id="@+id/btn_hipster"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

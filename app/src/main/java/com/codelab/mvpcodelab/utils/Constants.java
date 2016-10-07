@@ -6,7 +6,7 @@ package com.codelab.mvpcodelab.utils;
 public interface Constants {
 
     interface ApiConsts {
-        String BASE_URL = "http://hipsterjesus.com/api/";
+        String BASE_URL = "http://hipsterjesus.com/";
 
     }
 
