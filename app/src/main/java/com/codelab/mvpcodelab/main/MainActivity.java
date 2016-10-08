@@ -5,11 +5,16 @@ import android.os.Bundle;
 
 import com.codelab.mvpcodelab.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements MainContract.View{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    @Override
+    public void updateHipsterText(String hipsterText) {
+
     }
 }
