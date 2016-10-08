@@ -22,10 +22,11 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/btn_new_word">
+        android:layout_below="@+id/btn_hipster">
 
         <TextView
             android:id="@+id/tv_text"
+            style="@style/TextAppearance.AppCompat.Medium"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </ScrollView>
