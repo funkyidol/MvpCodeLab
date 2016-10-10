@@ -24,7 +24,7 @@ public class MainPresenter implements MainContract.Presenter {
 
             @Override
             public void onFailure(Throwable throwable) {
-                // TODO: 10/8/2016 Show toast
+                view.showToast(throwable.getMessage());
             }
         });
     }

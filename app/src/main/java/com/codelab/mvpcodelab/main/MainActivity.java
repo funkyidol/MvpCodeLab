@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.codelab.mvpcodelab.R;
 
@@ -37,5 +38,10 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
     @Override
     public void updateHipsterText(String hipsterText) {
         tvHipsterText.setText(hipsterText);
+    }
+
+    @Override
+    public void showToast(String msg) {
+        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
 }
